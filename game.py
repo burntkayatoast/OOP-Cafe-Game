@@ -7,14 +7,10 @@
 # Import relevant classes and methods
 from loggable import Loggable
 from makeDrink import MakeDrink
-from characters import Character
-from characters import ConcreteNPC
-from characters import NormalNPC
+from characters import Character, ConcreteNPC, NormalNPC
 from achievements import Achievements
 from reviews import Reviews
-from design import printing_day
-from design import type_text
-from design import color
+from design import printing_day, type_text, color
 import random  # For randomisation of character names
 from time import sleep  # For display purposes
 
